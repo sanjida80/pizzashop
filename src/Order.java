@@ -15,36 +15,35 @@ import  java.util.*;
         }
 
         public static void listOrders(ArrayList<Order> oList) {
-            for (Order order: oList) {
+            for (Order order : oList) {
                 System.out.println("Order Item: " + order.getOrderItem());
                 System.out.println("Order Total: " + order.getOrderTotal());
             }
         }
 
         //Setters and Getters
-        public int getorderId() { return orderId; }
-        public void setorderId(int _orderId) {this.orderId = _orderId;}
+        public int getorderId() {
+            return orderId;
+        }
 
-        public String getOrderItem() { return orderItem; }
-        public void setOrderItem(String orderItem) { this.orderItem = orderItem; }
+        public void setorderId(int _orderId) {
+            this.orderId = _orderId;
+        }
 
-        public float getOrderTotal() { return orderTotal; }
-        public void setOrderTotal(float orderTotal) { this.orderTotal = orderTotal; }
+        public String getOrderItem() {
+            return orderItem;
+        }
 
-    /* public double getTotalPrice(double unitTotal) {
-        totalPrice = 0;
-        totalPrice += unitTotal;
-        return totalPrice;
-    }
+        public void setOrderItem(String orderItem) {
+            this.orderItem = orderItem;
+        }
 
-    public double getUnitTotal(double price, int quantity) {
-        unitTotal = price * quantity;
-        unitTotalPrice += unitTotal;
-        return unitTotal;
-    }
+        public float getOrderTotal() {
+            return orderTotal;
+        }
 
-    public void printOrder(String menuItem, double unitTotal) {
-        System.out.print(menuItem + "Total: " + unitTotal);
-    } */
+        public void setOrderTotal(float orderTotal) {
+            this.orderTotal = orderTotal;
+        }
 
     }
