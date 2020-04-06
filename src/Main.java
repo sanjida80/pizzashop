@@ -1,8 +1,8 @@
-Sanjida Aforz 
+/*Sanjida Aforz
 IST # 242
 Project Pizza Shop
 Last Edited -04/06/2020
-
+*/
 
 
 import java.util.ArrayList;
@@ -33,7 +33,7 @@ public class Main {
         // Order order = new Order(1);
         // Transaction trans = new Transaction(1);
 
-        Menu menu1 = new Menu(1, "Cheese Pizza", 7.00f);
+        Menu menu1 = new Menu(1, "Cheese Pizza", 8.00f);
         Menu menu2 = new Menu(2, "Supreme Meat Pizza", 10.00f);
         Menu menu3 = new Menu(3, "Veggie Pizza", 10.00f);
         Menu menu4 = new Menu(4, "Drinks", 2.00f);
