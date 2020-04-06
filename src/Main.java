@@ -1,14 +1,6 @@
 
 
-/*
-Project: Lab 9
-Purpose Details: Pizza ordering application
-Course: IST 242
-Author: JiaJia Liu
-Date Developed: 3.17.19
-Last Date Changed: 3.14.19
-Rev: 3
- */
+
 
 import java.util.ArrayList;
 import java.util.Scanner;
