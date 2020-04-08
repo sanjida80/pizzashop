@@ -29,8 +29,8 @@ public class Main {
         // Order order = new Order(1);
         // Transaction trans = new Transaction(1);
 
-        Menu menu1 = new Menu(1, "Cheese Pizza", 8.00f);
-        Menu menu2 = new Menu(2, "Supreme Meat Pizza", 10.00f);
+        Menu menu1 = new Menu(1, "Cheese Pizza", 15.00f);
+        Menu menu2 = new Menu(2, "Supreme Meat Pizza", 20.00f);
         Menu menu3 = new Menu(3, "Veggie Pizza", 10.00f);
         Menu menu4 = new Menu(4, "Drinks", 2.00f);
 
@@ -39,10 +39,10 @@ public class Main {
         mList.add(menu3);
         mList.add(menu4);
 
-        Order order1 = new Order(1, "Plain Cheese Pizza with a drink", 9.00f);
+        Order order1 = new Order(1, "Plain Cheese Pizza ", 9.00f);
         Order order2 = new Order(2, "Veggie Pizza", 10.00f);
         Order order3 = new Order(3, "Supreme Meat Pizza and Cheese Pizza", 17.00f);
-        Order order4 = new Order(4, "Supreme Meat Pizza, Cheese Pizza and drink", 19.00f);
+        Order order4 = new Order(4, "Supreme Meat Pizza, Cheese Pizza ", 29.00f);
 
         oList.add(order1);
         oList.add(order2);
